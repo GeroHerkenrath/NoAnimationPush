@@ -22,7 +22,7 @@
 	[super viewDidAppear:animated];
 	
 	if (self.infoOnlyVC1has) {
-		NSLog(@"Wow, I have some info exclusive to me: %@", self.infoOnlyVC1has);
+		NSLog(@"This was given to me in the previously presented controller's prepareForSegue: %@", self.infoOnlyVC1has);
 	}
 }
 

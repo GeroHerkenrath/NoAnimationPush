@@ -21,7 +21,7 @@
 - (void)viewWillAppear:(BOOL)animated {
 	[super viewWillAppear:animated];
 	if (self.someInfo) {
-		NSLog(@"Here I will process some Info: %@", self.someInfo);
+		NSLog(@"This was given to me in the previously presented VC's manuallyPush: %@", self.someInfo);
 	}
 }
 
